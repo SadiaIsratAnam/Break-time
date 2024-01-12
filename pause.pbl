@@ -1,0 +1,11 @@
+define Start(p)
+{
+  win <- MakeWindow()
+  text <- EasyLabel("Take a short break",gVideoWidth/2,gVideoHeight/2,gWin,25)
+  Draw()
+  Wait(1000*30) #for a 30 second break
+
+ text.text <- "Press any key to continue on to the next test"
+ Draw()
+ WaitForAnyKeyPress()
+}
